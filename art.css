@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(217, 217, 217);
+}
+
+.all-art-content {
+  display: flex;
+  column-gap: 6em;
+}
+
+.art-navigation {
+  margin-left: 1em;
+  margin-top: 7em;
+}
+
+.logo-el {
+  outline: 4px solid blue;
+  font-size: 35px;
+  font-weight: bold;
+  background: black;
+  color: white;
+  padding: 0 5px;
+  border-radius: 10px;
+}
+
+.ul-head {
+  list-style: none;
+  padding: 0;
+  padding-top: 2em;
+}
+
+.li-head {
+  margin-bottom: 1.5rem;
+}
+
+.li-head a {
+  text-decoration: none;
+  font-size: 19px;
+  outline: 1px solid blue;
+  padding: 0 3px;
+  border-radius: 10px;
+  color: rgb(38, 38, 38);
+  font-weight: 900;
+}
+
+.li-head:hover {
+  transform: skew(-20deg);
+}
+
+h2 {
+  margin: 0;
+}
+
+.art-introduction {
+  margin-top: 8.5em;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
